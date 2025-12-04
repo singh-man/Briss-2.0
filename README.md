@@ -68,7 +68,7 @@ Cropping view:
 ## Build instructions
 
 ### Prerequisites
-Make sure you have JDK 11 or later installed.
+Make sure you have JDK version 11 up to 19 installed.
 
 ### Build
 To build, run the following command:
