@@ -1,5 +1,5 @@
 # Briss 2.0 
-![Java CI with Gradle](https://github.com/mbaeuerle/Briss-2.0/workflows/Java%20CI%20with%20Gradle/badge.svg?branch=master)
+![Java CI with Gradle](https://github.com/mbaeuerle/Briss-2.0/actions/workflows/gradle.yml/badge.svg)
 
 Briss is a small application to crop PDF files. It is useful for example to crop whitespaces at the edeges so text is rendered bigger on small screens like eInk displays or tablet PCs.
 
@@ -68,7 +68,7 @@ Cropping view:
 ## Build instructions
 
 ### Prerequisites
-Make sure you have JDK 11 or later installed.
+Make sure you have JDK version 11 up to 19 installed.
 
 ### Build
 To build, run the following command:
@@ -82,6 +82,6 @@ You can find the built version in `build/distributions`
 ## Libraries used
  * This software uses two libraries to render and crop PDF files: 
   * itext (AGPLv3) http://itextpdf.com/ 
-  * jpedal (LGPL) http://www.jpedal.org/
+  * Apache PDFBox (Apache-2.0) https://pdfbox.apache.org/
   * JavaFX (GPLv2) https://openjfx.io
   
